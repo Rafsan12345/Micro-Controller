@@ -1,0 +1,6 @@
+// 5v = 1024, 1v = 204.4, 1mv = 0.24, 10mv = 2.048
+
+
+ value = analogRead(pin);
+ tempIndegree = value / 2.048; 
+ Serial.println(tempIndegree);
