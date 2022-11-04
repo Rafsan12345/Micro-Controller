@@ -1,0 +1,340 @@
+
+// array
+
+//int myInts[6];
+ //int myPins[] = {2, 4, 8, 3, 6};
+ //int mySensVals[5] = {2, 4, -8, 3, 2};
+ char message[5] = {"hello"};
+
+// 
+
+Serial.begin(9600); 
+
+Serial.println();
+
+
+// creat function 
+
+void setup(){
+  Serial.begin(9600);
+}
+
+void loop() {
+  int i = 2;
+  int j = 3;
+  int k;
+
+  k = myMultiplyFunction(i, j); // k now contains 6
+  Serial.println(k);
+  delay(500);
+}
+
+int myMultiplyFunction(int x, int y){
+  int result;
+  result = x * y;
+  return result;
+}
+
+
+
+//
+
+if (x  && y ) // AND 
+
+// logical operation &&=and || = or ! = not 
+
+// and
+if (digitalRead(2) == HIGH && digitalRead(3) == HIGH) 
+{ 
+
+// if BOTH the switches read HIGH
+  // statements
+
+
+}
+
+// or 
+
+if (x > 0 || y > 0) 
+{ 
+
+// if either x or y is greater than zero
+  
+
+
+// statements
+}
+
+// not 
+
+
+if (!x) 
+{ 
+
+// if x is not true
+ 
+//It can be used to invert the boolean value.
+
+//x = !y; // the inverted value of y is stored in x
+// statements
+
+
+}
+
+
+
+
+
+
+
+// coment 
+
+//single line 
+/*.........multiple line........*/
+
+
+// ESP8266
+http://arduino.esp8266.com/stable/package_esp8266com_index.json
+
+//map
+
+ sensorValue = map(sensorValue, sensorMin, sensorMax, 0, 255);
+ sensorValue = constrain(sensorValue, 0, 255);
+
+
+//DATA TYPE
+
+unsigned long currentTime= 0;
+boolean state = 1;
+char sms;
+
+
+//read
+digitalRead(button);
+analogRead(pin);
+analogWrite(pin,value 0-255);
+
+
+
+//PIN 
+pinMode(13, OUTPUT);
+pinMode(13, INPUT);
+
+//WRITE
+digitalWrite(13, HIGH);   
+digitalWrite(13,LOW); 
+
+// DELAY time 
+
+delay(1000);
+delayMicroseconds(50);  
+time = micros(); // 70 min
+ myTime = millis(); //50d
+
+// pulse timing calculation
+unsigned long duration; // data type
+ duration = pulseIn(pin, HIGH);
+
+// square wave
+tone(pin, frequency); // start
+noTone(pin); // stop
+It is not possible to generate tones lower than 31Hz.
+
+ // random
+random(max); // 0 to max-1
+random(min, max); // min to max-1
+
+
+
+
+// for digit 1
+
+void setup(){}
+
+
+void loop() {}
+
+digitalWrite(11, LOW);
+
+OUTPUT
+ INPUT
+int state;
+ digitalRead
+
+Serial.begin(9600); 
+
+Serial.println();
+
+int state;
+void setup()
+
+
+
+{
+
+  pinMode(13, INPUT);
+  Serial.begin(9600); 
+ 
+  
+  }
+
+
+
+void loop()
+
+
+{
+state= digitalRead(13);
+
+  Serial.println(state);
+
+  }
+//
+
+//loop
+for(k=3;k<9;k++)
+{
+
+
+}
+
+for(k=0;k<256;k=k+5)
+
+
+//arry
+int pattern[4]={3,5,6,8};
+
+// 2 dimection ARRY
+
+int digit[10][7]={
+
+{1,1,1,1,1,1,1},
+{1,1,1,1,1,1,1},
+{1,1,1,1,1,1,1},
+{1,1,1,1,1,1,1},
+{1,1,1,1,1,1,1},
+{1,1,1,1,1,1,1},
+{1,1,1,1,1,1,1},
+{1,1,1,1,1,1,1},
+{1,1,1,1,1,1,1},
+{1,1,1,1,1,1,1},
+
+};
+
+
+//if statement
+
+if(condition=20)
+{
+
+digitalWrite(13, HIGH);   
+delay(1000);
+
+}
+
+// else if 
+
+if(condition=20)
+{
+
+digitalWrite(13, HIGH);   
+delay(1000);
+
+}
+
+else if (condition = 30)
+{
+
+digitalWrite(12, HIGH);   
+delay(1000);
+
+}
+
+else 
+{
+
+digitalWrite(11, HIGH);   
+delay(1000);
+
+}
+
+//analog 
+
+analogRead(pin);
+analogWrite(pin,value 0-255);
+
+
+
+
+
+
+void setup()
+ {
+  // put your setup code here, to run once:
+
+}
+
+void loop()
+{
+  // put your main code here, to run repeatedly:
+
+}
+
+
+//lcd
+
+#include<LiquidCrystal.h>
+LiquidCrystal lcd (13,12,11,10,9,8);
+
+
+
+
+
+
+void setup()
+{
+lcd.begin(16,2);
+}
+ 
+void loop()
+ 
+ {
+   lcd.setCursor(4,0);
+   lcd.print("HELLO");
+  
+  lcd.setCursor(3,1);
+  lcd.print("DAFFODILIAN");
+  
+ }
+
+// EEPROM
+
+EEPROM.write('vari',state);
+EEPROM.read('vari');
+#include<EEPROM.h>
+byte value1;
+byte value2;
+
+// serial //
+
+ if(Serial.available() != 0)
+{
+  sms = Serial.read();
+}
+
+Serial.read();
+Serial.begin(9600); 
+Serial.print(state);
+
+Serial.println(state);
+
+
+// STATE CHANGE 
+
+if(sms =='A')
+{
+
+digitalWrite(12,STATE1);  
+ 
+STATE1 = !STATE1;  //THIS
+}

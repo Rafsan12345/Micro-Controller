@@ -1,0 +1,307 @@
+<?xml version="1.0"?>
+<ambom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FileName>file.xml</FileName>
+  <MAVer>3.0.13.0</MAVer>
+  <WorkSpaceId>0</WorkSpaceId>
+  <DmsId>1234</DmsId>
+  <assemblies>
+    <assembly>
+      <RefId>{A4D7BB32-518E-4BF4-9CF5-CF3F3A09B77D}</RefId>
+      <Name>Autodesk® AutoCAD® Electrical 2021</Name>
+      <UnitType>PRD - Product</UnitType>
+      <State />
+      <Description>Autodesk® AutoCAD® Electrical 2021</Description>
+      <Category />
+      <Upi2 dataFileType="ini" dataTarget="$root\Setup.ini" dataSection="SETUP" dataKey="UPI2" create="true">{4173D1C4-03FD-45DA-9619-0E0DB53E3B92}</Upi2>
+      <BuildDate>2/10/2020 12:18:45 AM</BuildDate>
+      <BuildNumber dataFileType="msi" dataSrc="$root\x64\en-us\acade\AcadePS\AcadePS.msi" dataKey="ProductVersion">18.0.53.0</BuildNumber>
+      <ProductLine>ACAD_E</ProductLine>
+      <Version>2021</Version>
+      <SubRelease>0</SubRelease>
+      <ShortcutName />
+      <Platform>WIN64 - Windows 64-bit</Platform>
+      <Language>en-US - English - United States</Language>
+      <Locked>NA</Locked>
+      <Upi1MasterId>NA</Upi1MasterId>
+      <SetupIniSection>SETUP</SetupIniSection>
+      <PackageTarget />
+      <assemblies>
+        <assembly>
+          <RefId>{28B89EEF-4101-0409-1102-CF3F3A09B77D}</RefId>
+          <Name>Autodesk® AutoCAD® 2021 Language Core</Name>
+          <UnitType>LP - Language Pack</UnitType>
+          <State />
+          <Description>Autodesk® AutoCAD® 2021 Language Core</Description>
+          <Category />
+          <Upi2 dataFileType="msi" dataTarget="$root\x64\en-us\Acade\AcadLP\AcadLP.msi" dataKey="UPI2" rootFeature="P" componentCondition="" create="true">{702CB0FC-AA96-4C59-A23A-A9854863C31C}</Upi2>
+          <BuildDate>2/10/2020 12:18:45 AM</BuildDate>
+          <BuildNumber dataFileType="msi" dataSrc="$root\x64\en-us\Acade\AcadLP\AcadLP.msi" dataKey="ProductVersion">24.0.47.0</BuildNumber>
+          <ProductLine>ACD</ProductLine>
+          <Version>2021</Version>
+          <SubRelease>0</SubRelease>
+          <ShortcutName />
+          <Platform>WIN64 - Windows 64-bit</Platform>
+          <Language>en-US - English - United States</Language>
+          <Locked>NA</Locked>
+          <Upi1MasterId>{28B89EEF-4101-0409-1102-CF3F3A09B77D}</Upi1MasterId>
+          <SetupIniSection>ACAD_LP</SetupIniSection>
+          <PackageTarget />
+        </assembly>
+        <assembly>
+          <RefId>{28B89EEF-4107-0409-1102-CF3F3A09B77D}</RefId>
+          <Name>Autodesk® AutoCAD® Electrical 2021 Language Core - English</Name>
+          <UnitType>LP - Language Pack</UnitType>
+          <State />
+          <Description>Autodesk® AutoCAD® Electrical 2021 Language Core - English</Description>
+          <Category />
+          <Upi2 dataFileType="msi" dataTarget="$root\x64\en-us\Acade\AcadeLP\AcadeLP.msi" dataKey="UPI2" rootFeature="AECORE" componentCondition="" create="true">{10800FD8-CE84-4DD2-A765-20008B02B1B5}</Upi2>
+          <BuildDate>2/10/2020 12:18:45 AM</BuildDate>
+          <BuildNumber dataFileType="msi" dataSrc="$root\x64\en-us\Acade\AcadeLP\AcadeLP.msi" dataKey="ProductVersion">18.0.53.0</BuildNumber>
+          <ProductLine>ACAD_E</ProductLine>
+          <Version>2021</Version>
+          <SubRelease>0</SubRelease>
+          <ShortcutName />
+          <Platform>WIN64 - Windows 64-bit</Platform>
+          <Language>en-US - English - United States</Language>
+          <Locked>NA</Locked>
+          <Upi1MasterId>{28B89EEF-4107-0409-1102-CF3F3A09B77D}</Upi1MasterId>
+          <SetupIniSection>ACADE_LP</SetupIniSection>
+          <PackageTarget />
+        </assembly>
+        <assembly>
+          <RefId>{28B89EEF-4107-0409-6102-CF3F3A09B77D}</RefId>
+          <Name>Autodesk® AutoCAD® Electrical 2021 Content Language Pack</Name>
+          <UnitType>LP - Language Pack</UnitType>
+          <State />
+          <Description>Autodesk® AutoCAD® Electrical 2021 Content Language Pack</Description>
+          <Category />
+          <Upi2 dataFileType="msi" dataTarget="$root\x64\en-us\Acade\AcadeContentLP\AcadeContentLP.msi" dataKey="UPI2" rootFeature="AECORE" componentCondition="" create="true">{1DE37B1B-EEC9-4EA4-A82B-2CCB0D34A185}</Upi2>
+          <BuildDate>2/10/2020 12:18:45 AM</BuildDate>
+          <BuildNumber dataFileType="msi" dataSrc="$root\x64\en-us\Acade\AcadeContentLP\AcadeContentLP.msi" dataKey="ProductVersion">18.0.53.0</BuildNumber>
+          <ProductLine>ACAD_E</ProductLine>
+          <Version>2021</Version>
+          <SubRelease>0</SubRelease>
+          <ShortcutName />
+          <Platform>WIN64 - Windows 64-bit</Platform>
+          <Language>en-US - English - United States</Language>
+          <Locked>NA</Locked>
+          <Upi1MasterId>{28B89EEF-4107-0409-5102-CF3F3A09B77D}</Upi1MasterId>
+          <SetupIniSection>ACADECONTENT_LP</SetupIniSection>
+          <PackageTarget />
+        </assembly>
+        <assembly>
+          <RefId>{DAA3296E-4107-4621-8126-3ADBFCE549B1}</RefId>
+          <Name>Autodesk® Content Migration Utility for AutoCAD® Electrical</Name>
+          <UnitType>COM - Component</UnitType>
+          <State />
+          <Description>Autodesk® Content Migration Utility for AutoCAD® Electrical</Description>
+          <Category />
+          <Upi2 dataFileType="msi" dataTarget="$root\x64\Tools\AceSqlMigration\AceSqlMigration.msi" dataKey="UPI2" rootFeature="Complete" componentCondition="" create="true">{0F67E646-E5C6-40CB-B7DD-22A1A52E00DB}</Upi2>
+          <BuildDate>2/10/2020 12:18:45 AM</BuildDate>
+          <BuildNumber dataFileType="msi" dataSrc="$root\x64\Tools\AceSqlMigration\AceSqlMigration.msi" dataKey="ProductVersion">18.0.53.0</BuildNumber>
+          <ProductLine>ACAD_E</ProductLine>
+          <Version>2021</Version>
+          <SubRelease>0</SubRelease>
+          <ShortcutName />
+          <Platform>WIN64 - Windows 64-bit</Platform>
+          <Language>NA - Language Independent</Language>
+          <Locked>NA</Locked>
+          <Upi1MasterId>{DAA3296E-4107-4621-8126-3ADBFCE549B1}</Upi1MasterId>
+          <SetupIniSection>ACESQLMIG</SetupIniSection>
+          <PackageTarget />
+        </assembly>
+        <assembly>
+          <RefId>{20A60A26-4107-0409-81C4-D25E86FD9CA6}</RefId>
+          <Name>Autodesk® Content Migration Utility for AutoCAD® Electrical Language Pack</Name>
+          <UnitType>LP - Language Pack</UnitType>
+          <State />
+          <Description>Autodesk® Content Migration Utility for AutoCAD® Electrical Language Pack</Description>
+          <Category />
+          <Upi2 dataFileType="msi" dataTarget="$root\x64\en-us\Tools\AceSqlMigration\AceSqlMigrationLP.msi" dataKey="UPI2" rootFeature="Complete" componentCondition="" create="true">{CD9A4198-F7F9-4ACE-B384-2B90FC67DA1C}</Upi2>
+          <BuildDate>2/10/2020 12:18:45 AM</BuildDate>
+          <BuildNumber dataFileType="msi" dataSrc="$root\x64\en-us\Tools\AceSqlMigration\AceSqlMigrationLP.msi" dataKey="ProductVersion">18.0.53.0</BuildNumber>
+          <ProductLine>ACAD_E</ProductLine>
+          <Version>2021</Version>
+          <SubRelease>0</SubRelease>
+          <ShortcutName />
+          <Platform>WIN64 - Windows 64-bit</Platform>
+          <Language>en-US - English - United States</Language>
+          <Locked>NA</Locked>
+          <Upi1MasterId>{20A60A26-4107-0409-81C4-D25E86FD9CA6}</Upi1MasterId>
+          <SetupIniSection>ACESQLMIG_LANGPACK</SetupIniSection>
+          <PackageTarget />
+        </assembly>
+        <assembly>
+          <RefId>{28B89EEF-4107-0000-3102-CF3F3A09B77D}</RefId>
+          <Name>Autodesk AutoCAD Electrical 2021</Name>
+          <UnitType>APP - Application</UnitType>
+          <State />
+          <Description>Autodesk AutoCAD Electrical 2021</Description>
+          <Category />
+          <Upi2 dataFileType="msi" dataTarget="$root\x64\AcadePrivate\AcadePrivate.msi" dataKey="UPI2" rootFeature="P" componentCondition="" create="true">{1695B54E-87F2-42FE-A98B-C6F877E4DF22}</Upi2>
+          <BuildDate>2/10/2020 12:18:45 AM</BuildDate>
+          <BuildNumber dataFileType="msi" dataSrc="$root\x64\AcadePrivate\AcadePrivate.msi" dataKey="ProductVersion">18.0.53.0</BuildNumber>
+          <ProductLine>ACAD_E</ProductLine>
+          <Version>2021</Version>
+          <SubRelease>0</SubRelease>
+          <ShortcutName />
+          <Platform>WIN64 - Windows 64-bit</Platform>
+          <Language>NA - Language Independent</Language>
+          <Locked>NA</Locked>
+          <Upi1MasterId>{28B89EEF-4107-0000-3102-CF3F3A09B77D}</Upi1MasterId>
+          <SetupIniSection>ACADEPV</SetupIniSection>
+          <PackageTarget />
+          <assemblies>
+            <assembly>
+              <RefId>{28B89EEF-4101-0000-0102-CF3F3A09B77D}</RefId>
+              <Name>Autodesk® AutoCAD® 2021 Core</Name>
+              <UnitType>COM - Component</UnitType>
+              <State />
+              <Description>Autodesk® AutoCAD® 2021 Core</Description>
+              <Category />
+              <Upi2 dataFileType="msi" dataTarget="$root\x64\acad\acad.msi" dataKey="UPI2" rootFeature="P" componentCondition="" create="true">{11EF6814-6650-4DA2-85F8-4225AD742DE0}</Upi2>
+              <BuildDate>2/10/2020 12:18:45 AM</BuildDate>
+              <BuildNumber dataFileType="msi" dataSrc="$root\x64\acad\acad.msi" dataKey="ProductVersion">24.0.47.0</BuildNumber>
+              <ProductLine>ACD</ProductLine>
+              <Version>2021</Version>
+              <SubRelease>0</SubRelease>
+              <ShortcutName />
+              <Platform>WIN64 - Windows 64-bit</Platform>
+              <Language>NA - Language Independent</Language>
+              <Locked>NA</Locked>
+              <Upi1MasterId>{28B89EEF-4101-0000-0102-CF3F3A09B77D}</Upi1MasterId>
+              <SetupIniSection>ACAD</SetupIniSection>
+              <PackageTarget />
+            </assembly>
+            <assembly>
+              <RefId>{28B89EEF-4104-0000-5102-CF3F3A09B77D}</RefId>
+              <Name>ACA &amp; MEP 2021 Object Enabler</Name>
+              <UnitType>COM - Component</UnitType>
+              <State />
+              <Description>ACA &amp; MEP 2021 Object Enabler</Description>
+              <Category />
+              <Upi2 dataFileType="msi" dataTarget="$root\x64\ACAOE\AcaOE.msi" dataKey="UPI2" rootFeature="dummy">{0F8173C1-D49C-4996-BD81-9FD8AE5108BF}</Upi2>
+              <BuildDate>2/10/2020 12:18:45 AM</BuildDate>
+              <BuildNumber dataFileType="msi" dataSrc="$root\x64\ACAOE\AcaOE.msi" dataKey="ProductVersion">8.3.51.0</BuildNumber>
+              <ProductLine>ARCHDESK</ProductLine>
+              <Version>2021</Version>
+              <SubRelease>0</SubRelease>
+              <ShortcutName />
+              <Platform>WIN64 - Windows 64-bit</Platform>
+              <Language>NA - Language Independent</Language>
+              <Locked>NA</Locked>
+              <Upi1MasterId>NA</Upi1MasterId>
+              <SetupIniSection>ACAOE</SetupIniSection>
+              <PackageTarget />
+            </assembly>
+            <assembly>
+              <RefId>{28B89EEF-4107-0000-0102-CF3F3A09B77D}</RefId>
+              <Name>Autodesk® AutoCAD® Electrical 2021 Core</Name>
+              <UnitType>COM - Component</UnitType>
+              <State />
+              <Description>Autodesk® AutoCAD® Electrical 2021 Core</Description>
+              <Category />
+              <Upi2 dataFileType="msi" dataTarget="$root\x64\Acade\Acade.msi" dataKey="UPI2" rootFeature="AECORE" componentCondition="" create="true">{93897648-BBD7-49D6-BBC4-80FB4157838C}</Upi2>
+              <BuildDate>2/10/2020 12:18:45 AM</BuildDate>
+              <BuildNumber dataFileType="msi" dataSrc="$root\x64\Acade\Acade.msi" dataKey="ProductVersion">18.0.53.0</BuildNumber>
+              <ProductLine>ACAD_E</ProductLine>
+              <Version>2021</Version>
+              <SubRelease>0</SubRelease>
+              <ShortcutName />
+              <Platform>WIN64 - Windows 64-bit</Platform>
+              <Language>NA - Language Independent</Language>
+              <Locked>NA</Locked>
+              <Upi1MasterId>{28B89EEF-4107-0000-0102-CF3F3A09B77D}</Upi1MasterId>
+              <SetupIniSection>ACADE</SetupIniSection>
+              <PackageTarget />
+            </assembly>
+            <assembly>
+              <RefId>{28B89EEF-4107-0000-5102-CF3F3A09B77D}</RefId>
+              <Name>Autodesk® AutoCAD® Electrical 2021 Content</Name>
+              <UnitType>COM - Component</UnitType>
+              <State />
+              <Description>Autodesk® AutoCAD® Electrical 2021 Content</Description>
+              <Category />
+              <Upi2 dataFileType="msi" dataTarget="$root\x64\AcadeContent\AcadeContent.msi" dataKey="UPI2" rootFeature="AECORE" componentCondition="" create="true">{0B6E2B05-315E-4F08-B4C0-4D40155318AC}</Upi2>
+              <BuildDate>2/10/2020 12:18:45 AM</BuildDate>
+              <BuildNumber dataFileType="msi" dataSrc="$root\x64\AcadeContent\AcadeContent.msi" dataKey="ProductVersion">18.0.53.0</BuildNumber>
+              <ProductLine>ACAD_E</ProductLine>
+              <Version>2021</Version>
+              <SubRelease>0</SubRelease>
+              <ShortcutName />
+              <Platform>WIN64 - Windows 64-bit</Platform>
+              <Language>NA - Language Independent</Language>
+              <Locked>NA</Locked>
+              <Upi1MasterId>{28B89EEF-4107-0000-5102-CF3F3A09B77D}</Upi1MasterId>
+              <SetupIniSection>ACADECONTENT</SetupIniSection>
+              <PackageTarget />
+            </assembly>
+            <assembly>
+              <RefId>{28B89EEF-4107-0409-2102-CF3F3A09B77D}</RefId>
+              <Name>Autodesk® AutoCAD® Electrical 2021</Name>
+              <UnitType>COM - Component</UnitType>
+              <State />
+              <Description>Autodesk® AutoCAD® Electrical 2021</Description>
+              <Category />
+              <Upi2 dataFileType="msi" dataTarget="$root\x64\en-us\Acade\AcadePS\AcadEPS.msi" dataKey="UPI2" rootFeature="P" componentCondition="" create="true">{B69ED02E-A6C8-4F5C-B17C-0E0DB53E3B92}</Upi2>
+              <BuildDate>2/10/2020 12:18:45 AM</BuildDate>
+              <BuildNumber dataFileType="msi" dataSrc="$root\x64\en-us\Acade\AcadePS\AcadEPS.msi" dataKey="ProductVersion">18.0.53.0</BuildNumber>
+              <ProductLine>ACAD_E</ProductLine>
+              <Version>2021</Version>
+              <SubRelease>0</SubRelease>
+              <ShortcutName>AutoCAD Electrical 2021 - English\AutoCAD Electrical 2021 - English.lnk</ShortcutName>
+              <Platform>WIN64 - Windows 64-bit</Platform>
+              <Language>en-US - English - United States</Language>
+              <Locked>NA</Locked>
+              <Upi1MasterId>{28B89EEF-4107-0409-2102-CF3F3A09B77D}</Upi1MasterId>
+              <SetupIniSection>ACADE_MAIN</SetupIniSection>
+              <PackageTarget />
+            </assembly>
+          </assemblies>
+        </assembly>
+        <assembly>
+          <RefId>{51C52E16-9327-4CAB-96A4-65568F36A543}</RefId>
+          <Name>Autodesk Licensing Installer 1.0</Name>
+          <UnitType>UPD - Update</UnitType>
+          <State />
+          <Description>Autodesk Licensing Installer 1.0</Description>
+          <Category />
+          <Upi2 dataFileType="file" dataTarget="$root\x86\AdskLicensing\AdskLicensing-installer.exe" dataSection="SETUP" dataKey="UPI2">{F291CF18-F259-4892-A47D-D13A33942CCA}</Upi2>
+          <BuildDate>2/10/2020 12:18:45 AM</BuildDate>
+          <BuildNumber dataFileType="file" dataSrc="$root\x86\AdskLicensing\AdskLicensing-installer.exe" dataSection="SETUP" dataKey="ProductVersion">10.1.0.3194</BuildNumber>
+          <ProductLine>PLC0000036</ProductLine>
+          <Version>1.0</Version>
+          <SubRelease>0</SubRelease>
+          <ShortcutName>0</ShortcutName>
+          <Platform>WIN - Windows X32/X64</Platform>
+          <Language>NA - Language Independent</Language>
+          <Locked>NA</Locked>
+          <Upi1MasterId>NA</Upi1MasterId>
+          <SetupIniSection>ADSKLICENSING</SetupIniSection>
+          <PackageTarget />
+        </assembly>
+        <assembly>
+          <RefId>{951BB060-1350-4C93-BD83-D966C51D4005}</RefId>
+          <Name>Autodesk Single Sign-On</Name>
+          <UnitType>COM - Component</UnitType>
+          <State />
+          <Description>Autodesk Single Sign-On</Description>
+          <Category />
+          <Upi2 dataFileType="msi" dataTarget="$root\x64\AdSSO\AdSSO.msi" dataKey="UPI2" rootFeature="dummy">{49061B35-2FDC-4CCC-BD46-9BA027B5B53C}</Upi2>
+          <BuildDate>2/10/2020 12:18:45 AM</BuildDate>
+          <BuildNumber dataFileType="msi" dataSrc="$root\x64\AdSSO\AdSSO.msi" dataKey="ProductVersion">11.2.0.1802</BuildNumber>
+          <ProductLine>ADSSO</ProductLine>
+          <Version>2020</Version>
+          <SubRelease>0</SubRelease>
+          <ShortcutName />
+          <Platform>WIN64 - Windows 64-bit</Platform>
+          <Language>NA - Language Independent</Language>
+          <Locked>NA</Locked>
+          <Upi1MasterId>NA</Upi1MasterId>
+          <SetupIniSection>ADSSO</SetupIniSection>
+          <PackageTarget />
+        </assembly>
+      </assemblies>
+    </assembly>
+  </assemblies>
+</ambom>

@@ -1,0 +1,150 @@
+Control Structure
+break 
+continue 
+do...while 
+else 
+for 
+goto 
+if 
+return 
+switch...case 
+while 
+
+//while 
+
+
+ var = 0;
+while (var < 200) {
+  // do something repetitive 200 times
+  var++;
+}
+
+
+
+// do while 
+
+int x = 0;
+do {
+  delay(50);          // wait for sensors to stabilize
+  x = readSensors();  // check the sensors
+} while (x < 100);
+
+
+
+// for
+
+
+for (int i = 0; i <= 255; i++) 
+
+{
+    analogWrite(PWMpin, i);
+    delay(10);
+}
+
+
+// switch case 
+switch (var) {
+  case 1:
+    //do something when var equals 1
+    break;
+
+  case 2:
+    //do something when var equals 2
+    break;
+
+  default:
+    // if nothing else matches, do the default
+    // default is optional
+    break;
+}
+
+
+
+
+// return 
+
+int checkSensor()
+ {
+  if (analogRead(0) > 400) {
+    return 1;
+  }
+
+
+  else 
+{
+    return 0;
+  }
+
+
+}
+
+//if 
+
+if (condition) 
+{
+  //statement(s)
+}
+
+
+//goto
+
+or (byte r = 0; r < 255; r++) {
+  for (byte g = 255; g > 0; g--) {
+    for (byte b = 0; b < 255; b++) {
+      if (analogRead(0) > 250) {
+        goto bailout;
+      }
+      // more statements ...
+    }
+  }
+}
+
+bailout:
+// more statements ...
+
+
+// continue
+
+
+for (int x = 0; x <= 255; x ++) {
+  if (x > 40 && x < 120) {  // create jump in values
+    continue;
+  }
+
+  analogWrite(PWMpin, x);
+  delay(50);
+}
+
+
+
+// break 
+
+int threshold = 40;
+for (int x = 0; x < 255; x++) {
+  analogWrite(PWMpin, x);
+  sens = analogRead(sensorPin);
+  if (sens > threshold) {     // bail out on sensor detect
+    x = 0;
+    break;
+  }
+  delay(50);
+}
+
+
+// else if else 
+
+
+
+if (condition1) {
+  // do Thing A
+}
+else if (condition2) {
+  // do Thing B
+}
+else {
+  // do Thing C
+}
+
+
+
+

@@ -1,0 +1,27 @@
+//math reference prepeared by "md hasemi rafsan jani shohan" 
+
+random(max); // 0 to max 
+
+random(min,max); // min to max 
+
+max(value1,value2);
+
+min(value1,value2);
+
+abs(a);
+
+map(variable,min,max,min1,max1);
+
+pow(base,exponent);
+
+cos(rad);
+
+sin(rad);
+
+tan (rad);
+
+constrain(value,min,max);
+
+sqrt(x);
+
++ - * / %
