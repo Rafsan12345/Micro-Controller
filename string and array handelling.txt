@@ -1,0 +1,32 @@
+// Array insert and remove size
+// int myArray[] = {1, 2, 3, 4, 5}; 
+// myArray[0] = 0;
+// Serial.println(myArray[0]);
+//  int arraySize = sizeof(myArray) / sizeof(myArray[0]);
+// a[0]+b[0]+c[0]
+//************************************************************************************************
+//String insert and remove size
+// String myString = "Hello world";
+// myString[0]
+//int stringLength = myString.length();
+
+// String myString = "Hello!";
+// String insertString = " world!";
+// myString.concat(insertString);
+
+// String myString = "Hello 1orld";
+// char charToReplace = '1';   // Character to replace
+// char newChar = 'H';         // Character to insert
+// myString.replace(charToReplace, newChar);
+
+// String result = str1 + " " + str2 + " " + str3;
+
+
+void setup() {
+ Serial.begin(9600);
+
+}
+
+void loop() {
+
+}
