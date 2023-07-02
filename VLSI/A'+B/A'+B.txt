@@ -1,0 +1,22 @@
+// DSCH 2.7f
+// 7/2/2023 5:47:37 PM
+// C:\Users\DCL\Desktop\VLSI Design\A'+B.sch
+
+module A'+B( in1,in2,out1);
+ input in1,in2;
+ output out1;
+ pmos #(24) pmos(out1,vdd,in1); // 2.0u 0.12u
+ pmos #(24) pmos(out1,vdd,w3); // 2.0u 0.12u
+ nmos #(24) nmos(out1,w4,in1); // 1.0u 0.12u
+ not #(17) inv(w3,in2);
+ nmos #(10) nmos(w4,vss,w3); // 1.0u 0.12u
+endmodule
+
+// Simulation parameters in Verilog Format
+always
+#1000 in1=~in1;
+#2000 in2=~in2;
+
+// Simulation parameters
+// in1 CLK 10 10
+// in2 CLK 20 20
