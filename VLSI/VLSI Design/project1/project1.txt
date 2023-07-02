@@ -1,0 +1,26 @@
+// DSCH 2.7f
+// 6/30/2023 11:24:53 PM
+// C:\Users\DCL\Desktop\VLSI Design\project1.sch
+
+module project1( in3,in1,in2,out2);
+ input in3,in1,in2;
+ output out2;
+ not #(17) inv(w2,in3);
+ not #(17) inv(w4,in1);
+ not #(17) inv(w6,in2);
+ and #(16) and(w7,w4,w6,in3);
+ and #(16) and(w8,w4,in2,w2);
+ and #(16) and(w9,w6,w2,in1);
+ or #(19) or(out2,w7,w8,w9);
+endmodule
+
+// Simulation parameters in Verilog Format
+always
+#1000 in3=~in3;
+#2000 in1=~in1;
+#4000 in2=~in2;
+
+// Simulation parameters
+// in3 CLK 10 10
+// in1 CLK 20 20
+// in2 CLK 40 40

@@ -1,0 +1,21 @@
+// DSCH 2.7f
+// 6/29/2023 2:01:39 PM
+// C:\Users\DCL\Desktop\VLSI Design\example.sch
+
+module example( in3,in1,out1);
+ input in3,in1;
+ output out1;
+ pmos #(24) pmos(out1,vdd,in1); // 2.0u 0.12u
+ pmos #(24) pmos(out1,vdd,in3); // 2.0u 0.12u
+ nmos #(24) nmos(out1,w4,in1); // 1.0u 0.12u
+ nmos #(10) nmos(w4,vss,in3); // 1.0u 0.12u
+endmodule
+
+// Simulation parameters in Verilog Format
+always
+#1000 in3=~in3;
+#2000 in1=~in1;
+
+// Simulation parameters
+// in3 CLK 10 10
+// in1 CLK 20 20
